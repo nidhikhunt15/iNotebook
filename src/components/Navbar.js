@@ -13,7 +13,7 @@ const Navbar = (props) => {
   let location = useLocation();
  
   return (
-    <nav className={`navbar navbar-expand-lg fixed-top navbar-${props.mode} bg-${props.mode}`}>
+    <nav className={`navbar navbar-expand-lg fixed-top navbar-${props.mode} bg-${props.mode}`} style={{boxShadow: '0 2px 4px 0 rgba(0,0,0,.2)'}}>
        <div className="container-fluid">
          <Link className="navbar-brand" to="/">iNotebook</Link>
          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
